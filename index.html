@@ -9,29 +9,26 @@
       rel="stylesheet" />
 
     <link rel="stylesheet" href="css/style.css" />
-    <style>
+    <!-- <style>
       * {
         outline: 0.1px solid red;
       }
-    </style>
+    </style> -->
 
     <title>Simple Tailwind Starter</title>
   </head>
   <body>
     <!-- Hero Section-->
     <section>
-      <div class="max-w-6xl px-10 pt-16 mx-auto mb-40 text-center">
+      <div class="px-10 pt-16 mb-40 section-container">
         <img src="./images/logo.svg" alt="" class="mx-auto my-16" />
-        <h3 class="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
-          A history of everything you copy
-        </h3>
+        <h3>A history of everything you copy</h3>
         <p class="mx-auto mb-10 text-2xl max-w-3-xl text-grayishBlue">
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
         <!--Button Container-->
-        <div
-          class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-6">
+        <div class="button-container">
           <a
             href="#"
             class="p-4 px-8 text-white transition rounded-full shadow-lg bg-strongCyan hover:opacity-80">
@@ -47,59 +44,139 @@
     </section>
     <!-- Snippets Section -->
     <section>
-      <div class="max-w-6xl px-10 mx-auto my-20 text-center">
-        <h3 class="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
-          Keep track of your snippets
-        </h3>
+      <div class="px-10 my-20 section-container">
+        <h3>Keep track of your snippets</h3>
         <p
-          class="mx-auto mb-24 text-xl leading-9 text-center max-w-3-xl text-grayishBlue">
+          class="mx-auto mb-12 text-xl leading-9 text-center max-w-3-xl text-grayishBlue">
           Clipboard instantly stores any item you copy in the cloud, meaning you
           can access your snippets immediately on all your devices. Our Mac and
           iOS apps will help you organize everything.
         </p>
       </div>
-      <!-- Lower Snippets Section -->
+      <!-- Features Section -->
+
       <div
-        class="flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-10 max-w-7xl mx-auto px-2">
+        class="flex flex-col justify-center w-full px-2 mx-auto space-y-6 text-xl text-white max-w-7xl lg:flex-row lg:space-x-10">
         <!-- Image -->
         <img
           src="./images/image-computer.png"
           alt="imac"
-      
-          class="mx-auto my-16 md:w-4/6 h-auto" />
+          width="752"
+          height="572"
+          class="h-auto mx-auto my-16 lg:w-4/6" />
         <!-- Text -->
-        <div class="flex flex-col justify-start space-y-14 ">
-          <div class="mt-28">
-            <h4
-              class="mb-2 text-2xl font-bold text-darkGrayishBlue md:text-left text-center">
-              Quick Search
-            </h4>
-            <p class="text-xl text-center text-grayishBlue md:text-left">
+        <div class="flex flex-col justify-start space-y-14">
+          <div class="mt-20">
+            <h4 class="lg:text-left">Quick Search</h4>
+            <p class="text-xl text-center text-grayishBlue lg:text-left">
               Easily search your snippets by content, category, web address,
               application, and more.
             </p>
           </div>
 
           <div>
-            <h4
-              class="mb-2 text-2xl font-bold text-darkGrayishBlue md:text-left text-center">
-              iCloud Sync
-            </h4>
-            <p class="text-xl text-center text-grayishBlue md:text-left">
+            <h4 class="lg:text-left">iCloud Sync</h4>
+            <p class="text-xl text-center text-grayishBlue lg:text-left">
               Instantly saves and syncs snippets across all your devices.
             </p>
           </div>
 
           <div>
-            <h4
-              class="mb-2 text-2xl font-bold text-darkGrayishBlue md:text-left text-center">
-              Completely History
-            </h4>
-            <p class="text-xl text-center text-grayishBlue md:text-left">
+            <h4 class="lg:text-left">Completely History</h4>
+            <p class="text-xl text-center text-grayishBlue lg:text-left">
               Retrieve any snippets from the first moment you started using the
               app.
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+    <!--Access Anywhere-->
+    <section>
+      <div class="px-10 my-40 section-container">
+        <h3>Access Clipboard Anywhere</h3>
+        <p
+          class="mx-auto mb-20 text-xl leading-9 text-center max-w-3xl text-grayishBlue">
+          Whether you’re on the go, or at your computer, you can access all your
+          Clipboard snippets in a few simple clicks.
+        </p>
+        <img
+          src="./images/image-devices.png"
+          alt="Ipad and Ipad"
+          class="mx-auto w-5/6" />
+      </div>
+    </section>
+    <!--Supercharge Your Workflow-->
+    <section class="section-container">
+      <div class="px-10 my-30">
+        <h3>Supercharge Your Workflow</h3>
+        <p
+          class="mx-auto mb-20 text-xl leading-9 text-center max-w-3xl text-grayishBlue">
+          We've got the tools to boost your productivity.
+        </p>
+      </div>
+      <div
+        class="flex flex-col justify-center px-2 space-y-12 mx-auto md:flex-row md:space-x-12 md:space-y-0">
+        <div class="flex flex-col text-center justify-center space-y-4">
+          <img
+            src="./images/icon-blacklist.svg"
+            alt="blacklist"
+            class="h-10 mx-auto" />
+          <h4 class="">Create Blacklists</h4>
+          <p class="text-xl text-grayishBlue">
+            Easily search your snippets by content, category, web address,
+            application, and more.
+          </p>
+        </div>
+
+        <div class="flex flex-col text-center justify-center space-y-4">
+          <img
+            src="./images/icon-text.svg"
+            alt="blacklist"
+            class="h-10 mx-auto" />
+          <h4 class="">Plain Text Snippets</h4>
+          <p class="text-xl text-grayishBlue">
+            Remove unwanted formatting from copied text for a consistent look.
+          </p>
+        </div>
+
+        <div class="flex flex-col text-center justify-center space-y-4">
+          <img
+            src="./images/icon-preview.svg"
+            alt="blacklist"
+            class="h-10 mx-auto" />
+          <h4 class="">Sneak Preview</h4>
+          <p class="text-xl text-grayishBlue">
+            Quick preview of all snippets on your Clipboard for easy access.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--Logos-->
+    <section>
+      <div class="px-2 my-40 section-container">
+        <div
+          class="flex flex-col space-y-12 md:space-y-0 md:flex-row justify-between">
+          <img
+            src="./images/logo-google.png"
+            alt="apple"
+            class="h-10 mx-auto md:mx-0" />
+          <img
+            src="./images/logo-ibm.png"
+            alt="google"
+            class="h-10 mx-auto md:mx-0" />
+          <img
+            src="./images/logo-microsoft.png"
+            alt="apple"
+            class="h-10 mx-auto md:mx-0" />
+          <img
+            src="./images/logo-hp.png"
+            alt="apple"
+            class="h-10 mx-auto md:mx-0" />
+          <img
+            src="./images/logo-vector-graphics.png"
+            alt="apple"
+            class="h-10 mx-auto md:mx-0" />
         </div>
       </div>
     </section>
